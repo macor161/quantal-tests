@@ -1,0 +1,27 @@
+{
+  "name": "quantal-tests",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macor161/quantal-tests.git"
+  },
+  "author": "Mathew Cormier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macor161/quantal-tests/issues"
+  },
+  "homepage": "https://github.com/macor161/quantal-tests#readme",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "quantal": "0.0.9",
+    "require-all": "^3.0.0"
+  }
+}
