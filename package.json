@@ -23,5 +23,8 @@
     "jest": "^24.9.0",
     "quantal": "0.0.9",
     "require-all": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
