@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bytecode": "jest test/bytecode.spec.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/macor161/quantal-tests#readme",
   "dependencies": {
     "jest": "^24.9.0",
-    "quantal": "0.0.9",
+    "quantal": "0.0.10",
     "require-all": "^3.0.0"
   },
   "jest": {

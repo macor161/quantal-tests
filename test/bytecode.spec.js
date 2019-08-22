@@ -8,7 +8,7 @@ describe('bytecode comparison', () => {
   test('openzeppelin', async () => {
     const PATH = path.join(__dirname, 'contracts/openzeppelin-solidity')
     await execa('npm', ['install'], { cwd: PATH })
-    await execa('truffle', ['compile', '-all'], { cwd: PATH })
+    await execa('truffle', ['compile', '--all'], { cwd: PATH })
 
     const options = getOptions({ 
       cwd: PATH, 
